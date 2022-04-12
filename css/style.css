@@ -1,0 +1,543 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+
+/*-------- top header & footer bottom--------*/
+.top-header,
+.footer-bottom {
+    background-color: #373F41;
+    color: #fff;
+}
+
+.top-header {
+    /* transition: all 0.2s ease; */
+    /* position: fixed; */
+    /* z-index: 99; */
+}
+
+/*------ header nav styling ---------*/
+
+#site-header-logo {
+    width: auto;
+    padding: 0;
+    margin-right: 30px;
+    height: 50px;
+}
+
+#site-header-logo img {
+    height: 50px;
+}
+.nav-link{
+    color: black !important;
+}
+
+
+
+
+/*------------ navigation section ------------*/
+
+
+/* ----------- banner section -------------- */
+
+.carousel-caption {
+    padding-top: 5.25rem !important;
+}
+
+
+
+
+/*---- Gallery section, Donate & Team section images slider -----*/
+.section-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+/* slick slider */
+.slick-prev:before, .slick-next:before {
+    color: black !important;
+}
+
+.box {
+    width: 465px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0px 25px;
+}
+
+.donate-box {
+    width: 642px;
+}
+
+.slide-img {
+    height: 350px;
+    position: relative;
+}
+
+.slide-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.overlay {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    background-color: rgba(101, 184, 202, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  
+}
+
+.social-btn {
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.social-icons {
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.social-btn:hover {
+    transition: all ease 0.3s;
+}
+
+.overlay {
+    visibility: hidden;
+}
+
+.slide-img:hover .overlay {
+    visibility: visible
+}
+
+.slider {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---- category banner ---- */
+.category-banner {
+    background-image: url("../images/header-banner1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    color: white;
+}
+
+
+/*----------- search bar ---------  */
+.search-bar {
+    margin: 50px 0px;
+    /* border: 2px solid red; */
+}
+
+.search {
+    /* border: 2px solid blue; */
+    background: #949496;
+    border-radius: 16px;
+    position: relative;
+    /* box-shadow: 0 0 40px rgba(51, 51, 51, .1) */
+}
+
+.search input {
+  
+    text-indent: 25px;
+    border: 0;
+    border-radius: 12px;
+    background-color: #F2F4F8;
+}
+
+
+
+.search button {
+    border-radius: 12px;
+    border: 0;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+    background: #373F41;
+}
+.search .fa-search {
+    margin-right: 15px;
+    position: absolute;
+    top: 34%;
+    left: 10px
+}
+.search button, 
+.search input {
+    height: 40px;
+}
+
+/*----------- card -----------*/
+
+
+.card-info {
+    padding: 20px;
+    background: #F2F4F8;
+}
+
+.card-info p {
+    font-size: 16px;
+    color: #999FAA;
+}
+
+.card-info button {
+    color: #F2F4F8;
+    background: #373F41;
+    border-radius: 5px;
+    padding: 5px 16px;
+}
+
+/*------- pagination --------*/
+.pagination-previous-btn,
+.pagination-next-btn,
+.pagination-counter {
+    border: 3px solid #d7d9de;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+}
+
+.pagination-previous-btn:hover,
+.pagination-next-btn:hover,
+.pagination-counter:hover {
+    color: white;
+    background: #373F41;
+    opacity: 0.5;
+}
+
+/* share page */
+
+
+.form-section {
+    background: #FAF8F8;
+   
+}
+
+.input-box select,
+.input-box input,
+.input-box textarea {
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 6px rgba(19, 18, 66, 0.07);
+    border-radius: 5px;
+}
+
+.form-select-input {
+    width: 100%;
+    padding: 7px;
+}
+
+label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #170F49;
+}
+
+.form-submit-btn {
+   
+    background: linear-gradient(180deg, #373F41 99.99%, #EC31F0 100%);
+    box-shadow: 0px 3px 12px rgba(74, 58, 255, 0.18);
+    
+    font-weight: bolder;
+   
+}
+
+/* user profile */
+.userOrVolunteer {
+    background: #F0F0F0;
+    margin-bottom: 0px;
+}
+
+.userOrVolunteer h3 {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    margin-bottom: 50px;
+}
+
+.userOrVolunteer p {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #6B705C;
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.userOrVolunteer p::after {
+    content: " ";
+    position: absolute;
+    background: #6B705C;
+    width: 100px;
+    height: 2px;
+    bottom: -2px;
+    left: 0px;
+}
+
+
+
+.userProfile {
+    border-right: 3px solid #E6E6E6;
+    padding: 100px 50px;
+}
+
+.userForm {
+    padding: 100px 50px;
+}
+
+.profileImage {
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 185px;
+    border-radius: 50%;
+    border: 5px solid #A5A58D;
+}
+
+.profileImage img {
+    width: 285px;
+}
+
+.userName {
+    margin-top: 20px;
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.userTitle {
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+
+
+
+
+
+
+
+/* donate page */
+
+
+.card-box{
+    background-color: #F2F4F8 !important;
+   margin-top: -60px;
+}
+.card-box .card-body{
+    padding: 100px 0px 50px;
+}
+.pay-circle img{
+    width:90px;
+}
+.pay-circle{
+    width: 120px;
+    height: 120px;
+    background: #F2F4F8;
+ margin: auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    
+}
+
+
+
+
+/* post details page */
+.wrapper {
+    display: flex;
+}
+
+.preview {
+    display: flex;
+    flex-direction: column
+}
+
+@media screen and (max-width: 996px) {
+    .preview {
+        margin-bottom: 20px
+    }
+}
+
+.preview-pic {
+    flex-grow: 1
+}
+
+.preview-thumbnail.nav-tabs {
+    border: none;
+    margin-top: 15px
+}
+
+.preview-thumbnail.nav-tabs li {
+    width: 23%;
+    margin-right: 2.5%
+}
+
+.preview-thumbnail.nav-tabs li img {
+    max-width: 100%;
+    display: block
+}
+
+.preview-thumbnail.nav-tabs li a {
+    padding: 0;
+    margin: 0
+}
+
+.preview-thumbnail.nav-tabs li:last-of-type {
+    margin-right: 0
+}
+
+.tab-content {
+    overflow: hidden
+}
+
+.tab-content img {
+    width: 100%;
+    object-fit: cover;
+    animation-name: opacity;
+    animation-duration: .5s
+}
+
+@media screen and (min-width: 997px) {
+    .wrapper {
+        display: flex
+    }
+}
+
+.postDetails {
+    
+    line-height: 35px;
+    color: #000000;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.postDetails li {
+    list-style: none;
+    text-align: start;
+}
+.postDetails ul{
+    padding-left: 0px !important;
+}
+.postDetails button {
+    margin-top: 40px;
+    width: 60%;
+    height: 45px;
+    background: #373F41;
+    border-radius: 5px;
+    color: white;
+}
+
+.postDetails button:hover {
+    background: #373F41;
+}
+
+
+/* modal */
+.loginSigninBtn button {
+    border: 0px;
+    background-color: #373F41;
+    padding: 10px 0px;
+}
+
+.loginSigninBtn button:hover {
+    background-color: #373F41;
+}
+
+.modalButtons button {
+    border: 0px;
+    background: white;
+    color: gray;
+}
+
+.modalButtons button:hover {
+    border: 0px;
+    background: white;
+    color: gray;
+}
+
+
+
+
+
+
+/*----------- footer ---------- */
+
+
+.footer-section,
+.footer-info {
+    background: #F2F4F8;
+}
+
+.footer-info img {
+    width: 70px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: left;
+}
+
+.social-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.footer-horizental-line {
+    width: 35px;
+    height: 3px;
+    background-color: coral;
+    margin-left: 1px;
+    margin-bottom: 15px;
+}
+
+
+

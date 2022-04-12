@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Charity website</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+
+
+      <!-- slick slider css -->
+      <link rel="stylesheet" href="slick/slick.css">
+      <link rel="stylesheet" href="slick/slick-theme.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a364c6e355.js" crossorigin="anonymous"></script>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- css breakpoint -->
+    <link rel="stylesheet" href="css/breakpoint.css">
+  
+
+</head>
+
+<body>
+     <!----------- header section ----------->
+     <header class="header">
+
+        <!------ top header --------->
+        <div class="top-header py-2 d-none d-sm-block">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex" >
+                            <div class="pe-3" >
+                                <a href="tel:01743762853">01710762832</a>
+                            </div>
+                            <div >
+                                <a href="mailto:webmaster@example.com">webmaster@example.com</a>
+                            </div>
+                    </div>
+                     <span>English / Bangla</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!----- header navigation ----->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <div id="site-header-logo">
+                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                </div>
+
+              <!-- humber button -->
+               
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto ">
+
+                    <li class="nav-item "> <a class="nav-link" href="sharePage.html">Share  </a> </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Request  </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="individualPage.html"> Food</a></li>
+                          <li><a class="dropdown-item" href="individualPage.html"> Cloth </a></li>
+                          <li><a class="dropdown-item" href="individualPage.html"> Book </a></li>
+                        </ul>
+                    </li>
+                   
+                    <li class="nav-item"><a class="nav-link" href="#"> Help </a></li>
+                    <li class="nav-item"><a class="nav-link" href="donate.html"> Donate </a></li>
+                    <li class="nav-item">
+                        <a data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="site-header-login-button"
+                        class="site-header-auth-button nav-link">Login</a>
+                    </li>
+                  
+                </ul>
+               
+
+              </div>
+            </div>
+        </nav>
+
+
+         
+          <!-- offcanvas navigation -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <p></p>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+               <nav class="navbar" >
+                <ul class="navbar-nav text-center w-100">
+            
+                    <li class="nav-item "> <a class="nav-link" href="sharePage.html">Share  </a> </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Request  </a>
+                        <ul class="dropdown-menu text-center">
+                          <li><a class="dropdown-item" href="individualPage.html"> Food</a></li>
+                          <li><a class="dropdown-item" href="individualPage.html"> Cloth </a></li>
+                          <li><a class="dropdown-item" href="individualPage.html"> Book </a></li>
+                        </ul>
+                    </li>
+                   
+                    <li class="nav-item"><a class="nav-link" href="#"> Help </a></li>
+                    <li class="nav-item"><a class="nav-link" href="donate.html"> Donate </a></li>
+                    <li class="nav-item">
+                        <a data-bs-dismiss="offcanvas" aria-label="Close" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="site-header-login-button"
+                        class="site-header-auth-button nav-link">Login</a>
+                    </li>
+                </ul>
+               </nav>
+            </div>
+        </div>
+
+
+    </header>
+
+
+    <!-----------individual top banner --------------->
+    <div class="category-banner d-flex justify-content-center align-items-center individual-top-banner">
+       
+            <div class="text-center">
+                <h2><b>He who has never denied himself for the sake of giving,</b></h2>
+            </div>
+     
+    </div>
+
+    
+
+
+
+
+    <!-- post details -->
+    <section class="py-3 py-md-5" >
+        <div class="container" >
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col">
+                    <div class="preview">
+                        <div class="preview-pic tab-content">
+                            <div class="tab-pane active" id="pic-1"><img src="images/postDetailsImg1.jpg" /></div>
+                            <div class="tab-pane" id="pic-2"><img src="images/postDetailsImg2.jpg" /></div>
+                            <div class="tab-pane" id="pic-3"><img src="images/postDetailsImg1.jpg" /></div>
+                            <div class="tab-pane" id="pic-4"><img src="images/postDetailsImg2.jpg" /></div>
+                         
+                        </div>
+                        <ul class="preview-thumbnail nav nav-tabs">
+                            <li class="active">
+                                <a data-bs-target="#pic-1" data-bs-toggle="tab"><img src="images/postDetailsImg1.jpg" /></a>
+                            </li>
+                            <li>
+                                <a data-bs-target="#pic-2" data-bs-toggle="tab"><img src="images/postDetailsImg2.jpg" /></a>
+                            </li>
+                            <li>
+                                <a data-bs-target="#pic-3" data-bs-toggle="tab"><img src="images/postDetailsImg1.jpg" /></a>
+                            </li>
+                            <li>
+                                <a data-bs-target="#pic-4" data-bs-toggle="tab"><img src="images/postDetailsImg2.jpg" /></a>
+                            </li>
+                         
+                        </ul>
+                    </div> 
+                </div>                         
+ 
+                <div class=" col">
+
+                    <div class="card postDetails py-3">
+                        <div class="card-body">
+                            <ul>
+                                <li> <h5 class="">Title publishing and graphic design </h5></li>
+                                <li><b>Name:</b> Abdur Rahim Hosain</li>
+                                <li><b>Mobile:</b> 01821347743</li>
+                                <li><b>Address:</b> Sher-e-Bangla Nagar Dhaka-1207</li>
+                                <li><b>Time of Made:</b> 3pm, 2/3/2022</li>
+                                <li><b>Expair date:</b> 3pm, 2/3/2022</li>
+                                <li><b>Details:</b>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur error,
+                                        earum dignissimos magni quod optio quaerat quam quis numquam magnam animi
+                                        corrupti
+                                        blanditiis tempora laborum, ab, tempore culpa? Excepturi et quis, officiis
+                                        nesciunt
+                                        sapiente minus? Aliquid dolorum accusamus non unde?</p>
+                                   
+                                </li>
+                            </ul>
+                            <div class="d-flex justify-content-center">
+                                <button class="btn btn-primary" type="submit">Sent Request</button>
+                            </div>
+                        </div>
+                      </div>
+
+                    <div class="postDetails">
+                       
+                           
+                           
+                       
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- share on social media -->
+    <div class="d-flex justify-content-center">
+        <div>
+            <p style="font-weight: 600;
+            font-size: 20px;">Share on social media</p>
+            <div class="d-flex justify-content-center">
+                <p><i class="fab fa-facebook social-icon"></i></p>
+                <p><i class="fab fa-twitter social-icon"></i></p>
+                <p><i class="fab fa-google-plus-g social-icon"></i></p>
+                <p><i class="fab fa-linkedin-in social-icon"></i></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!----------- footer ------------>
+    <footer class="footer-section footer-info py-3 py-sm-4 py-md-5 mt-4 mt-sm-5 ">
+        <div class="container">
+         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 ">
+             <div class="col ">
+                 
+                         <img src="images/logo.png" alt="">
+                         <p class="card-text">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit</p>
+                         <div class="socialIcons">
+                             <p><i class="fab fa-facebook social-icon"></i></p>
+                             <p><i class="fab fa-twitter social-icon"></i></p>
+                             <p><i class="fab fa-google-plus-g social-icon"></i></p>
+                             <p><i class="fab fa-linkedin-in social-icon"></i></p>
+                         </div>
+                    
+             </div>
+             <div class="col pt-4 pt-md-0">
+                 
+                         <h5 class="card-title">Site</h5>
+                         <div class="footer-horizental-line"></div>
+                         <p class="card-text">Gallery</p>
+                         <p class="card-text">About Us</p>
+                         <p class="card-text">Contact </p>
+                       
+                 
+             </div>
+             <div class="col pt-4 pt-md-0">
+                
+                         <h5 class="card-title">Support</h5>
+                         <div class="footer-horizental-line"></div>
+                         <p class="card-text">Help & FAQ</p>
+                         <p class="card-text">Term & condition</p>
+                         <p class="card-text">Sign Up As a Provider</p>
+                   
+             </div>
+             <div class="col pt-4 pt-md-0">
+               
+                         <h5 class="card-title">Contract Us</h5>
+                         <div class="footer-horizental-line"></div>
+                         <p class="card-text"><i class="fas fa-phone"></i> +65 7896 7620</p>
+                         <p class="card-text"><i class="fas fa-envelope"></i> example@gmail.com</p>
+                    
+             </div>
+         </div>
+        </div>
+     </footer>
+ 
+     <!-- footer bottom -->
+     <div class="d-flex justify-content-center py-2 footer-bottom">
+         <span>@ Need'z. All rights reserved.</span>
+     </div>
+
+
+
+
+  <!-- jquery -->
+  <script src="js/jquery.js"></script>
+  <!-- slick slider js -->
+  <script src="slick/slick.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- modal js -->
+    <script src="js/modal.js"></script>
+    <!-- js -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

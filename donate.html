@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Charity website</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a364c6e355.js" crossorigin="anonymous"></script>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- css breakpoint -->
+    <link rel="stylesheet" href="css/breakpoint.css">
+    <!-- slick slider css -->
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <!-- modal css -->
+    <link rel="stylesheet" href="css/modal.css">
+
+</head>
+
+<body>
+
+     <!----------- header section ----------->
+     <header class="header">
+
+        <!------ top header --------->
+        <div class="top-header py-2 d-none d-sm-block">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex" >
+                            <div class="pe-3" >
+                                <a href="tel:01743762853">01710762832</a>
+                            </div>
+                            <div >
+                                <a href="mailto:webmaster@example.com">webmaster@example.com</a>
+                            </div>
+                    </div>
+                     <span>English / Bangla</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!----- header navigation ----->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <div id="site-header-logo">
+                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                </div>
+
+              <!-- humber button -->
+               
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto ">
+
+                    <li class="nav-item "> <a class="nav-link" href="sharePage.html">Share  </a> </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Request  </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="individualPage.html"> Food</a></li>
+                          <li><a class="dropdown-item" href="individualPage.html"> Cloth </a></li>
+                          <li><a class="dropdown-item" href="individualPage.html"> Book </a></li>
+                        </ul>
+                    </li>
+                   
+                    <li class="nav-item"><a class="nav-link" href="#"> Help </a></li>
+                    <li class="nav-item"><a class="nav-link" href="donate.html"> Donate </a></li>
+                    <li class="nav-item">
+                        <a data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="site-header-login-button"
+                        class="site-header-auth-button nav-link">Login</a>
+                    </li>
+                  
+                </ul>
+               
+
+              </div>
+            </div>
+        </nav>
+
+
+         
+          <!-- offcanvas navigation -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <p></p>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+               <nav class="navbar" >
+                <ul class="navbar-nav text-center w-100">
+            
+                    <li class="nav-item "> <a class="nav-link" href="sharePage.html">Share  </a> </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Request  </a>
+                        <ul class="dropdown-menu text-center">
+                          <li><a class="dropdown-item" href="individualPage.html"> Food</a></li>
+                          <li><a class="dropdown-item" href="individualPage.html"> Cloth </a></li>
+                          <li><a class="dropdown-item" href="individualPage.html"> Book </a></li>
+                        </ul>
+                    </li>
+                   
+                    <li class="nav-item"><a class="nav-link" href="#"> Help </a></li>
+                    <li class="nav-item"><a class="nav-link" href="donate.html"> Donate </a></li>
+                    <li class="nav-item">
+                        <a data-bs-dismiss="offcanvas" aria-label="Close" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="site-header-login-button"
+                        class="site-header-auth-button nav-link">Login</a>
+                    </li>
+                </ul>
+               </nav>
+            </div>
+        </div>
+
+
+    </header>
+
+
+    <!-----------individual top banner --------------->
+    <div class="category-banner d-flex justify-content-center align-items-center individual-top-banner">
+        <div class="row">
+            <div class="text-center">
+                <h2><b>Donate for Poor People</b></h2>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- payment with mobile title -->
+    <div class="text-center mt-5 ">
+        <h4 class="py-3 py-md-5"><b>PAYMENT WITH MOBILE BANKING</b></h4>
+    </div>
+
+    <!-- payment with mobile -->
+    <div class="container ">
+    
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3">
+          
+            <div class="col">
+                <div class="pay-circle border border-secondary d-flex justify-content-center align-items-center">
+                    <img  src="images/bkash.png" alt="">
+                </div>
+                <div class="card-box card bg-light border-secondary" >
+                    
+                    <div class="card-body text-center">
+                    <h5 class="card-title">BKASH</h5>
+                    
+                    <p class="card-text">A/C TYPE:Merchant</p>
+                    <p class="card-text">A/C NO: 01841116230</p>
+                    <p class="card-text">PAYMENT OPTION PIN:1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="pay-circle border border-secondary d-flex justify-content-center align-items-center">
+                    <img  src="images/bkash.png" alt="">
+                </div>
+                <div class="card-box card bg-light border-secondary" >
+                    
+                    <div class="card-body text-center">
+                    <h5 class="card-title">BKASH</h5>
+                    
+                    <p class="card-text">A/C TYPE:Merchant</p>
+                    <p class="card-text">A/C NO: 01841116230</p>
+                    <p class="card-text">PAYMENT OPTION PIN:1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="pay-circle border border-secondary d-flex justify-content-center align-items-center">
+                    <img  src="images/bkash.png" alt="">
+                </div>
+                <div class="card-box card bg-light border-secondary" >
+                    
+                    <div class="card-body text-center">
+                    <h5 class="card-title">BKASH</h5>
+                    
+                    <p class="card-text">A/C TYPE:Merchant</p>
+                    <p class="card-text">A/C NO: 01841116230</p>
+                    <p class="card-text">PAYMENT OPTION PIN:1</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+  
+    </div>
+
+
+
+
+    <!-- payment with bank title -->
+   
+    <div class="text-center mt-5 ">
+        <h4 class="py-3 py-md-5"><b>PAYMENT WITH BANK ACCOUNT</b></h4>
+    </div>
+
+    <!-- payment with bank Account -->
+    <div class="container ">
+    
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3">
+          
+            <div class="col">
+                <div class="pay-circle border border-secondary d-flex justify-content-center align-items-center">
+                    <img  src="images/bkash.png" alt="">
+                </div>
+                <div class="card-box card bg-light border-secondary" >
+                    
+                    <div class="card-body text-center">
+                    <h5 class="card-title">BKASH</h5>
+                    
+                    <p class="card-text">A/C TYPE:Merchant</p>
+                    <p class="card-text">A/C NO: 01841116230</p>
+                    <p class="card-text">PAYMENT OPTION PIN:1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="pay-circle border border-secondary d-flex justify-content-center align-items-center">
+                    <img  src="images/bkash.png" alt="">
+                </div>
+                <div class="card-box card bg-light border-secondary" >
+                    
+                    <div class="card-body text-center">
+                    <h5 class="card-title">BKASH</h5>
+                    
+                    <p class="card-text">A/C TYPE:Merchant</p>
+                    <p class="card-text">A/C NO: 01841116230</p>
+                    <p class="card-text">PAYMENT OPTION PIN:1</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="pay-circle border border-secondary d-flex justify-content-center align-items-center">
+                    <img  src="images/bkash.png" alt="">
+                </div>
+                <div class="card-box card bg-light border-secondary" >
+                    
+                    <div class="card-body text-center">
+                    <h5 class="card-title">BKASH</h5>
+                    
+                    <p class="card-text">A/C TYPE:Merchant</p>
+                    <p class="card-text">A/C NO: 01841116230</p>
+                    <p class="card-text">PAYMENT OPTION PIN:1</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+  
+    </div>
+
+  
+
+ <!-- payment with bank title -->
+   
+ <div class="text-center mt-5 ">
+    <h4 class="py-3 py-md-5"><b>PAYMENT WITH SSL COMMERCE</b></h4>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <button class="btn btn-outline-dark mx-2" >BKASH</button>
+            <button class="btn btn-outline-dark mx-2" >SSL COMMERCE</button>
+        </div>
+    </div>
+</div>
+
+
+    <!----------- footer ------------>
+    <footer class="footer-section footer-info py-3 py-sm-4 py-md-5 mt-4 mt-sm-5 ">
+        <div class="container">
+         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 ">
+             <div class="col ">
+                 
+                         <img src="images/logo.png" alt="">
+                         <p class="card-text">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit</p>
+                         <div class="socialIcons">
+                             <p><i class="fab fa-facebook social-icon"></i></p>
+                             <p><i class="fab fa-twitter social-icon"></i></p>
+                             <p><i class="fab fa-google-plus-g social-icon"></i></p>
+                             <p><i class="fab fa-linkedin-in social-icon"></i></p>
+                         </div>
+                    
+             </div>
+             <div class="col pt-4 pt-md-0">
+                 
+                         <h5 class="card-title">Site</h5>
+                         <div class="footer-horizental-line"></div>
+                         <p class="card-text">Gallery</p>
+                         <p class="card-text">About Us</p>
+                         <p class="card-text">Contact </p>
+                       
+                 
+             </div>
+             <div class="col pt-4 pt-md-0">
+                
+                         <h5 class="card-title">Support</h5>
+                         <div class="footer-horizental-line"></div>
+                         <p class="card-text">Help & FAQ</p>
+                         <p class="card-text">Term & condition</p>
+                         <p class="card-text">Sign Up As a Provider</p>
+                   
+             </div>
+             <div class="col pt-4 pt-md-0">
+               
+                         <h5 class="card-title">Contract Us</h5>
+                         <div class="footer-horizental-line"></div>
+                         <p class="card-text"><i class="fas fa-phone"></i> +65 7896 7620</p>
+                         <p class="card-text"><i class="fas fa-envelope"></i> example@gmail.com</p>
+                    
+             </div>
+         </div>
+        </div>
+     </footer>
+ 
+     <!-- footer bottom -->
+     <div class="d-flex justify-content-center py-2 footer-bottom">
+         <span>@ Need'z. All rights reserved.</span>
+     </div>
+
+
+  <!-- jquery -->
+  <script src="js/jquery.js"></script>
+  <!-- slick slider js -->
+  <script src="slick/slick.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- modal js -->
+    <script src="js/modal.js"></script>
+    <!-- js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

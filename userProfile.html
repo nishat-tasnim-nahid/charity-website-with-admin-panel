@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Charity website</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+
+       
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a364c6e355.js" crossorigin="anonymous"></script>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- css breakpoint -->
+    <link rel="stylesheet" href="css/breakpoint.css">
+
+
+</head>
+
+<body>
+
+     <!----------- header section ----------->
+     <header class="header">
+
+        <!------ top header --------->
+        <div class="top-header py-2 d-none d-sm-block">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex" >
+                            <div class="pe-3" >
+                                <a href="tel:01743762853">01710762832</a>
+                            </div>
+                            <div >
+                                <a href="mailto:webmaster@example.com">webmaster@example.com</a>
+                            </div>
+                    </div>
+                     <span>English / Bangla</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!----- header navigation ----->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <div id="site-header-logo">
+                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                </div>
+
+              <!-- humber button -->
+               
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto ">
+
+                    <li class="nav-item "> <a class="nav-link" href="sharePage.html">Share  </a> </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Request  </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="individualPage.html"> Food</a></li>
+                          <li><a class="dropdown-item" href="individualPage.html"> Cloth </a></li>
+                          <li><a class="dropdown-item" href="individualPage.html"> Book </a></li>
+                        </ul>
+                    </li>
+                   
+                    <li class="nav-item"><a class="nav-link" href="#"> Help </a></li>
+                    <li class="nav-item"><a class="nav-link" href="donate.html"> Donate </a></li>
+                    <li class="nav-item">
+                        <a data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="site-header-login-button"
+                        class="site-header-auth-button nav-link">Login</a>
+                    </li>
+                  
+                </ul>
+               
+
+              </div>
+            </div>
+        </nav>
+
+
+         
+          <!-- offcanvas navigation -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <p></p>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+               <nav class="navbar" >
+                <ul class="navbar-nav text-center w-100">
+            
+                    <li class="nav-item "> <a class="nav-link" href="sharePage.html">Share  </a> </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">  Request  </a>
+                        <ul class="dropdown-menu text-center">
+                          <li><a class="dropdown-item" href="individualPage.html"> Food</a></li>
+                          <li><a class="dropdown-item" href="individualPage.html"> Cloth </a></li>
+                          <li><a class="dropdown-item" href="individualPage.html"> Book </a></li>
+                        </ul>
+                    </li>
+                   
+                    <li class="nav-item"><a class="nav-link" href="#"> Help </a></li>
+                    <li class="nav-item"><a class="nav-link" href="donate.html"> Donate </a></li>
+                    <li class="nav-item">
+                        <a data-bs-dismiss="offcanvas" aria-label="Close" data-bs-toggle="modal" href="#exampleModalToggle" role="button" id="site-header-login-button"
+                        class="site-header-auth-button nav-link">Login</a>
+                    </li>
+                </ul>
+               </nav>
+            </div>
+        </div>
+
+
+    </header>
+
+
+    <!-----------individual top banner --------------->
+    <div class="category-banner d-flex justify-content-center align-items-center individual-top-banner">
+      
+            <div class="text-center">
+                <h2><b>My Profile</b></h2>
+            </div>
+       
+    </div>
+
+
+    <!-- user volunteer -->
+    <div class="ps-5 pt-5 userOrVolunteer">
+        <h3>User or volunteer</h3>
+        <p>My profile</p>
+    </div>
+
+
+    <!-- profile and form -->
+    <div class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-5 col-lg-4 d-flex justify-content-center align-middle text-center userProfile ">
+                    <div class="">
+                        <div class="profileImage m-auto">
+                            <img src="images/userProfile1.png" alt="">
+                        </div>
+                        <div class="align-middle">
+                            <p class="userName"><b>Khusan Akhmedov</b></p>
+                            <p class="userTitle">Web-designer</p>
+                            <button class="btn btn-dark"> Upload new avatar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-7 col-lg-8 d-flex justify-content-center align-middle userForm">
+                    <form class="row g-3">
+                        <div class="d-flex justify-content-between">
+                            <p class="fw-bold">BASIC INFO</p>
+                            <div class="userProfile-formBtn">
+                                <button class="btn btn-outline-dark me-3" type="reset">CANCEL</button>
+                                <button class="btn btn-outline-dark" type="submit">SAVE</button>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="inputName4" class="form-label">Name</label>
+                            <input type="name" class="form-control" id="inputName4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputNumber4" class="form-label">Phone</label>
+                            <input type="number" class="form-control" id="inputNumber4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputText4" class="form-label">Address</label>
+                            <textarea class="form-control" rows="3" aria-label="With textarea"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <label for="inputPassword4" class="form-label">Change password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- clarification list -->
+    <div class="text-center my-5">
+        <h3>Donator Clarification list- only for donator</h3>
+    </div>
+
+
+    <!----------- footer ------------>
+    <footer class="footer-section footer-info py-3 py-sm-4 py-md-5 mt-4 mt-sm-5 ">
+        <div class="container">
+         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 ">
+             <div class="col ">
+                 
+                         <img src="images/logo.png" alt="">
+                         <p class="card-text">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit</p>
+                         <div class="socialIcons">
+                             <p><i class="fab fa-facebook social-icon"></i></p>
+                             <p><i class="fab fa-twitter social-icon"></i></p>
+                             <p><i class="fab fa-google-plus-g social-icon"></i></p>
+                             <p><i class="fab fa-linkedin-in social-icon"></i></p>
+                         </div>
+                    
+             </div>
+             <div class="col pt-4 pt-md-0">
+                 
+                         <h5 class="card-title">Site</h5>
+                         <div class="footer-horizental-line"></div>
+                         <p class="card-text">Gallery</p>
+                         <p class="card-text">About Us</p>
+                         <p class="card-text">Contact </p>
+                       
+                 
+             </div>
+             <div class="col pt-4 pt-md-0">
+                
+                         <h5 class="card-title">Support</h5>
+                         <div class="footer-horizental-line"></div>
+                         <p class="card-text">Help & FAQ</p>
+                         <p class="card-text">Term & condition</p>
+                         <p class="card-text">Sign Up As a Provider</p>
+                   
+             </div>
+             <div class="col pt-4 pt-md-0">
+               
+                         <h5 class="card-title">Contract Us</h5>
+                         <div class="footer-horizental-line"></div>
+                         <p class="card-text"><i class="fas fa-phone"></i> +65 7896 7620</p>
+                         <p class="card-text"><i class="fas fa-envelope"></i> example@gmail.com</p>
+                    
+             </div>
+         </div>
+        </div>
+     </footer>
+ 
+     <!-- footer bottom -->
+     <div class="d-flex justify-content-center py-2 footer-bottom">
+         <span>@ Need'z. All rights reserved.</span>
+     </div>
+
+    
+  <!-- jquery -->
+  <script src="js/jquery.js"></script>
+  <!-- slick slider js -->
+  <script src="slick/slick.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- modal js -->
+    <script src="js/modal.js"></script>
+    <!-- js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
